@@ -1,0 +1,16 @@
+body {
+   background-color: #004C4C;
+}
+img {
+   width: 600px;
+}
+.photos {
+   text-align: center;
+}
+.cats {
+   text-align: center;
+}
+.text {
+   text-align: center;
+   color: black
+}

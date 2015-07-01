@@ -1,0 +1,23 @@
+
+body {
+   background-color: #00CCCC;
+}
+img {
+   width: 600px;
+}
+.photos {
+   text-align: center;
+}
+.cats {
+   text-align: center;
+}
+.hr
+{
+   width: 73%;
+    border: 5px solid blue;
+    /*height: 25px;*/
+}
+.text {
+   text-align: center;
+   color: black
+}
