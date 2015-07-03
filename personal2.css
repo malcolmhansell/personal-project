@@ -7,6 +7,18 @@ body {
    background-color: grey;
 }
 img {
-
    width: 600px;
+}
+nav li {
+   display: inline;
+}
+nav a:hover {
+   color: red;
+}
+a {
+   text-decoration: none;
+   color: blue;
+}
+.active {
+   color: red;
 }

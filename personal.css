@@ -1,8 +1,8 @@
 body {
-   background-color: grey;
+   background-image: url(dark_embroidery.png);
 }
 img {
-   width: 600px;
+   width: 950px;
 }
 .photos {
    text-align: center;
@@ -12,12 +12,11 @@ img {
 }
 .text {
    text-align: center;
-   color: white
+   color: white;
 }
 .hr hr {
-   border-color: blue;
-   height: 10px;
-   border=none
+   border-color: teal;
+   border: 4px solid teal;
 }
 .heading {
    text-align: center;
@@ -26,4 +25,49 @@ img {
    text-align: center;
    width: 960px;
    margin: 0px auto;
+}
+.a {
+   text-decoration: none;
+   color: teal;
+}
+nav a:hover {
+   color: red;
+}
+td a:hover {
+   color: white;
+}
+nav li {
+   display: inline;
+}
+table {
+   border: 5px solid white;
+   padding: 3px;
+   border-collapse: collapse;
+}
+td {
+   text-align: center;
+   color: white;
+   border-bottom:3px solid white;
+   border-left: 3px solid white;
+}
+.table {
+   margin: 0px auto;
+}
+.active {
+   color: red;
+}
+.backtotop {
+   border: 4px solid white;
+}
+tr:hover {
+      background-color: teal;
+}
+h1:hover {
+   color: teal;
+}
+.tablelink {
+   color: white;
+}
+.tablelink:hover {
+   color: black;
 }
