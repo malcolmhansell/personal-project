@@ -13,15 +13,12 @@ img {
 nav li {
    display: inline;
 }
-nav a:hover {
-   color: red;
-}
 a {
    text-decoration: none;
    color: teal;
 }
 .active {
-   color: red;
+   color: white;
 }
 hr {
    border-color: teal;
@@ -41,4 +38,10 @@ iframe {
 }
 .vidhead:hover {
    color: blue;
+}
+h1:hover {
+   color: teal;
+}
+h1 {
+   color: white;
 }
