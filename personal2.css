@@ -7,7 +7,7 @@ body {
    text-align: center;
 }
 img {
-   width: 960px;
+   width: 70%;
    border: 5px solid teal;
 }
 nav li {
@@ -29,7 +29,7 @@ hr {
 }
 iframe {
    border: 5px solid teal;
-   width: 100%;
+   width: 90%;
    height: 550px;
 }
 .backtotop {

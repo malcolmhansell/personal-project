@@ -2,7 +2,7 @@ body {
    background-image: url(dark_embroidery.png);
 }
 img {
-   width: 955px;
+   width: 80%;
    border: 5px solid #006B6B;
 }
 .photos {
@@ -76,9 +76,12 @@ h1:hover {
    color: teal;
    text-decoration: none;
 }
-
 iframe {
    border: 10px solid teal;
-   width: 960px;
-   height: 500px;
+   width: 100%;
+   height: 580px;
+   text-align: center;
+}
+.personalvid {
+   width: 70%;
 }
