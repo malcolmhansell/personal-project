@@ -1,8 +1,5 @@
 
 @media screen and (max-width: 750px) {
-  .container {
-  margin: 0px auto;
-}
 .hr hr {
   border: 8px solid teal;
 }
@@ -31,7 +28,13 @@ header h1 {
   border-radius: 30%;
 }
 header a {
- font-size: 2em; 
+ font-size: 3em; 
+}
+td {
+  font-size: 2em;
+}
+p {
+  font-size: 2em;
 }
 }
 body {
