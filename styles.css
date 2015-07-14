@@ -46,7 +46,11 @@
    font-size: 2.0em; 
   }
   p {
-    font-size: 2em;
+    font-size: 1.6em;
+    width: 100%;
+  }
+  .paragraph {
+    width: 100%;
   }
 }
 .backbutton {
