@@ -1,55 +1,57 @@
 
 @media screen and (max-width: 750px) {
-.hr hr {
-  border: 8px solid teal;
+  .hr hr {
+    border: 8px solid teal;
+  }
+  body {
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+  }
+  .container {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 1.5em;
+    width: 100%;
+  }
+  .table {
+    display: none;
+  }
+  .mainimages {
+     width: 100%;
+     border: 5px solid teal;
+     margin-bottom: 25px;
+     display:block;
+     margin:0 auto;
+  }
+  .iframe {
+    height: 200px;
+  }
+  header h1 {
+    color: #FF6699;
+    text-decoration: none;
+    border: 20px solid teal;
+    padding: 10px;
+    font-size: 2em;
+    background-color: teal;
+    width: 150px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 35%;
+  }
+  header a {
+   font-size: 2.0em; 
+  }
+  p {
+    font-size: 2em;
+  }
 }
-body {
-  text-align: center;
-  magin: 0px auto;
-}
-.container {
-  text-align: center;
-  margin: 0px auto;
-  font-size: 1.5em;
-}
-.table {
-  display: none;
-}
-img {
-  width: 100%;
-   border: 5px solid teal;
-   margin-bottom: 25px;
-}
-iframe {
-  width: 100%;
-}
-.backtotop {
-   border: 20px solid teal;
-   background-color: teal;
-   border-radius: 30%;
-   color: #FF6699;
-   font-weight: 900;
-   font-size: 1.6em;
-   margin-top: 15px;
-}
-header h1 {
-  color: #FF6699;
-  text-decoration: none;
-  border: 20px solid teal;
-  padding: 10px;
-  font-size: 2em;
-  background-color: teal;
-  width: 150px;
-  margin: 0px auto;
-  margin-top: 20px;
-  border-radius: 35%;
-}
-header a {
- font-size: 2.0em; 
-}
-p {
-  font-size: 2em;
-}
+.backbutton {
+  width: 70px;
+  position: fixed;
+  border: none;
+  bottom: 100px;
+  right: 100px;
 }
 body {
    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(dark_embroidery.png);
@@ -124,13 +126,7 @@ tr:hover td {
 }
 iframe {
    border: 10px solid teal;
-   width: 100%;
+   width: 70%;
    height: 580px;
    text-align: center;
-}
-.commentbox {
-  color: #FF6699;
-  width: 600px;
-  margin: 0px auto;
-  background: rgba(0, 204, 153,.2);
 }

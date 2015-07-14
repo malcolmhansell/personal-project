@@ -9,7 +9,6 @@ body {
     display:block;
     clear:both;
 }
- 
 .menu li {
     margin:0px;
     list-style:none;
@@ -55,7 +54,7 @@ body {
 }
  
 .sub-menu {
-    width:160%;
+    width:100%;
     padding:5px 0px;
     position:absolute;
     top:100%;
