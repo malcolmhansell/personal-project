@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 40px) {
+@media screen and (max-width: 700px) {
   .hr hr {
     border: 8px solid teal;
   }
@@ -36,6 +36,7 @@
     border: 20px solid teal;
     padding: 10px;
     font-size: 2em;
+    font-family: arial;
     background-color: teal;
     width: 150px;
     margin: 0px auto;
@@ -59,6 +60,13 @@
   border: none;
   bottom: 100px;
   right: 100px;
+  float: right;
+}
+.backbutton {
+  clear: right;
+}
+#head {
+  text-decoration: none;
 }
 body {
    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/dark_embroidery.png);
@@ -79,9 +87,10 @@ img {
    border: 5px solid teal;
    margin-bottom: 25px;
 }
-header h1 {
+header > h1 {
   color: #FF6699;
   text-decoration: none;
+  text-shadow: 1px 1px grey;
   border: 5px solid teal;
   background-color: teal;
   width: 250px;
