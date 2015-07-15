@@ -6,13 +6,12 @@
   right: 100px;
 }
 body {
-   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(dark_embroidery.png);
+   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/dark_embroidery.png);
 }
 .container {
    width: 960px;
    margin: 0px auto;
    text-align: center;
-   background-image: url(dark_embroidery.png);
    font-family: georgia;
 }
 img {
