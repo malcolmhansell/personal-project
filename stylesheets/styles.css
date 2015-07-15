@@ -30,6 +30,9 @@
   .backbutton {
     display: none;
   }
+  .span {
+     display: none;
+  }
   header h1 {
     color: #FF6699;
     text-decoration: none;
@@ -66,6 +69,18 @@
 .backbutton {
   clear: right;
 }
+.span{
+  color: #FF6699;
+  float: right;
+  position: fixed;
+  border: 3px groove #FF6699;
+  padding: 5px;
+  background: teal;
+  font-weight: 900;
+  bottom: 85px;
+  right: 80px;
+  text-align: center;
+}
 #head {
   text-decoration: none;
 }
@@ -85,7 +100,7 @@ body {
 }
 img {
    width: 960px;
-   border: 5px solid teal;
+   border: 10px solid teal;
    margin-bottom: 25px;
 }
 header > h1 {

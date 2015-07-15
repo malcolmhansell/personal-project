@@ -5,6 +5,18 @@
   bottom: 100px;
   right: 100px;
 }
+.span{
+  color: #FF6699;
+  float: right;
+  position: fixed;
+  border: 3px groove #FF6699;
+  padding: 5px;
+  background: teal;
+  font-weight: 900;
+  bottom: 70px;
+  right: 84px;
+  text-align: center;
+}
 body {
    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/dark_embroidery.png);
 }
@@ -16,7 +28,8 @@ body {
 }
 img {
    width: 960px;
-   border: 5px solid teal;
+   border: 10px solid teal;
+   margin-bottom: 20px;
 }
 nav li {
    display: inline;
@@ -93,7 +106,9 @@ h1 {
   .backbutton {
     display: none;
   }
-  
+  .span {
+     display: none;
+  }
     h1 {
     color: #FF6699;
     text-decoration: none;
